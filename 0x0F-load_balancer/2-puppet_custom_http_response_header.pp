@@ -14,3 +14,4 @@ exec {'update':
 -> exec {'run':
   command => '/usr/sbin/service nginx restart',
 }
+.
